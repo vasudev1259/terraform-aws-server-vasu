@@ -1,5 +1,5 @@
 provider "aws" {
- region = "var.region"   
+ region = var.region  
 }
 
 resource "aws_instance" "ec2_example" {
