@@ -10,7 +10,7 @@ variable "ami" {
   default = ""
 }
 
-variable "instance_type" {
+variable "type" {
   default = ""
 }
 
